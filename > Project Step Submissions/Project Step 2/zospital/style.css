@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    transition: 0.3s cubic-bezier(0, 0, 0.2, 1);
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background: linear-gradient(180deg , #fdfff7, #effef4);
+    background-repeat: no-repeat;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    padding-bottom: 1em;
+}
+
+header h1 {
+    padding: 1.5em;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #329c15;
+}
+
+header h2 {
+    color: #174909;
+    padding-bottom: 1em;
+}
+
+.disease {
+    padding: 0.25em;
+}
+
+.disease:hover {
+    transform: scale(1.1);
+}
+
+.dCode, .dRisk {
+    color: #a0d89d;
+    margin: 0.5em;
+}
+
+.dName {
+    color: #ff7400;
+    margin: 1em;
+}
+
+#navigator h3 {
+    margin: 1em;
+}
+
+#navigator div {
+    padding: 0.25em;
+}
+
+#navigator div a {
+    text-decoration: none;
+    color: #16490a;
+}
+    
+
+.button {
+    margin-top: 2em;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #204f04d9;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+}
+
+.button:hover, .button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button:hover {
+    transform: translateY(-1px);
+}
+
+.button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.inputI {
+    margin: 1em;
+}
